@@ -6,7 +6,7 @@ const fr = require('face-recognition').withCv(cv)
 
 var app = express();
 // let port = process.env.PORT || 80;
-var server = app.listen(process.env.PORT || 3500, listen);
+var server = app.listen(process.env.PORT || 80, listen);
  function listen() {
  var host = server.address().address;
  var port = server.address().port;
